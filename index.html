@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Study Dashboard</title>
+  <link rel="stylesheets" href="index.html">
+</head>
+<body>
+
+<h1>📚 My Study Dashboard</h1>
+<p class="subtitle">stay on track, one day at a time</p>
+
+<div class="grid">
+
+  <!-- TASK TRACKER -->
+  <div class="box">
+    <h2>✅ Task Tracker</h2>
+    <div class="task-input-row">
+      <input type="text" id="taskTitle" placeholder="Task name...">
+      <select id="taskCat">
+        <option value="Study">Study</option>
+        <option value="HW">HW</option>
+        <option value="Project">Project</option>
+        <option value="Other">Other</option>
+      </select>
+      <button onclick="addTask()">Add</button>
+    </div>
+    <ul class="task-list" id="taskList"></ul>
+  </div>
+
+  <!-- CALENDAR -->
+  <div class="box">
+    <h2>📅 Calendar</h2>
+    <div class="cal-header">
+      <button onclick="changeMonth(-1)">&#8592;</button>
+      <span id="calMonthLabel"></span>
+      <button onclick="changeMonth(1)">&#8594;</button>
+    </div>
+    <div class="cal-grid" id="calGrid"></div>
+    <div class="note-popup" id="notePopup">
+      <div class="note-label" id="noteLabel">Note for date:</div>
+      <textarea id="noteText" placeholder="Add a note or task for this day..."></textarea>
+      <button onclick="saveNote()">Save</button>
+    </div>
+  </div>
+
+  <!-- POMODORO -->
+  <div class="box">
+    <h2>⏱ Pomodoro Timer</h2>
+    <div class="timer-mode-btns">
+      <button id="mode25" class="active" onclick="setMode(25, this)">25 min</button>
+      <button id="mode5" onclick="setMode(5, this)">5 min break</button>
+    </div>
+    <div class="timer-display" id="timerDisplay">25:00</div>
+    <div class="timer-buttons">
+      <button id="startBtn" onclick="toggleTimer()">Start</button>
+      <button id="resetBtn" onclick="resetTimer()">Reset</button>
+    </div>
+    <div class="session-count">Sessions done today: <span id="sessionCount">0</span></div>
+  </div>
+
+  <!-- STATS -->
+  <div class="box">
+    <h2>📊 Basic Stats</h2>
+    <div class="stat-row">
+      <div class="stat-card">
+        <div class="stat-num" id="statTasks">0</div>
+        <div class="stat-label">Tasks done<br>this week</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num" id="statTime">0</div>
+        <div class="stat-label">Minutes<br>focused today</div>
+      </div>
+    </div>
+    <div class="stat-note">* Stats reset when you refresh the page</div>
+  </div>
+
+</div>
+
+
+</body>
+</html>
