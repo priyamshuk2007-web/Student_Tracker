@@ -1,28 +1,35 @@
-✅ The SMART version (what you should actually build)
-Phase 1 (must-have features)
+📚 Study Dashboard
+A simple productivity dashboard built using HTML, CSS, and JavaScript to help students stay organized and focused while studying. Because apparently human brains require dashboards, timers, trackers, calendars, and tiny dopamine counters just to read one chapter.
+✨ Features
+✅ Task Tracker
+Add tasks with categories
+Organize study goals easily
 
-Start with these ONLY:
+📅 Interactive Calendar
+Navigate between months
+Add notes for specific dates
 
-1. Task / Activity Tracker
-Add task (title + category)
-Mark complete
-Delete task
+⏱ Pomodoro Timer
+25-minute focus sessions
+5-minute break mode
+Session counter
 
-2. Mini Calendar (simple, not Google Calendar clone)
-4
-Show current month
-Click a date → add note/task
-Highlight marked dates
-
-👉 No drag-drop nonsense. Keep it simple.
-
-3. Pomodoro Timer
-4
-25 min timer
-Start / pause / reset
-Optional: session count
-
-Phase 2 (ONLY if Phase 1 is stable)
-4. Basic Stats
+📊 Basic Study Stats
 Tasks completed this week
-Total time focused
+Focus minutes tracked for the day
+
+🛠 Technologies Used
+HTML5
+CSS3
+Vanilla JavaScript
+
+
+
+📸 Preview
+Added in the folder
+
+👨‍💻 Author
+Made by Priyam Shukla
+
+📜 License
+This project is open-source and free to use.
