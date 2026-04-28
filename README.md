@@ -1,35 +1,33 @@
 📚 Study Dashboard
 A simple productivity dashboard built using HTML, CSS, and JavaScript to help students stay organized and focused while studying. Because apparently human brains require dashboards, timers, trackers, calendars, and tiny dopamine counters just to read one chapter.
-✨ Features
-✅ Task Tracker
+
+ Features
+ Task Tracker
 Add tasks with categories
 Organize study goals easily
 
-📅 Interactive Calendar
+ Interactive Calendar
 Navigate between months
 Add notes for specific dates
 
-⏱ Pomodoro Timer
+ Pomodoro Timer
 25-minute focus sessions
 5-minute break mode
 Session counter
-
-📊 Basic Study Stats
+ 
+ Basic Study Stats
 Tasks completed this week
 Focus minutes tracked for the day
 
-🛠 Technologies Used
+ Technologies Used
 HTML5
 CSS3
 Vanilla JavaScript
 
-
-
-📸 Preview
+ Preview
 Added in the folder
 
-👨‍💻 Author
-Made by Priyam Shukla
+ Author
+Made by: Priyam Shukla 
+         Piyush Shukla    
 
-📜 License
-This project is open-source and free to use.
