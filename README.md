@@ -1,6 +1,5 @@
 📚 Study Dashboard
-A simple productivity dashboard built using HTML, CSS, and JavaScript to help students stay organized and focused while studying. Because apparently human brains require dashboards, timers, trackers, calendars, and tiny dopamine counters just to read one chapter.
-
+A simple productivity dashboard built using HTML, CSS, and JavaScript to help students stay organized and focused while studying.
  Features
  Task Tracker
 Add tasks with categories
